@@ -1,0 +1,16 @@
+## configurazione a livello del source
+
+source.host = server1.dom.iccu
+#source.driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
+source.driver = net.sourceforge.jtds.jdbc.Driver
+source.name = wtime
+source.catalog = dbo
+source.url = jtds:sqlserver://server1/wtime
+source.username = xxx
+source.password = yyy
+
+target.host = localhost
+target.driver = com.mysql.jdbc.Driver
+target.name = wtime
+target.username = xxx
+target.password = yyy
